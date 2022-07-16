@@ -1,0 +1,109 @@
+1.
+#include<stdio.h>
+int main()
+{
+   printf("Hello students");
+   return 0;
+}
+2.
+#include<stdio.h>
+int main()
+{
+   printf("Hello\nstudents")
+   return 0;
+}
+3.
+#include<stdio.h>
+int main()
+{
+   printf("\"MysirG\");
+   return 0;
+}
+4.
+#include<stdio.h>
+int main()
+{
+   int R;
+   float A;
+   printf("Enter the radius of circle.");
+   scanf("%d",&R);
+   A=3.14*R*R;
+   printf("\"Area of circle is %f  having the radius %d\"",A,R);
+   return 0;
+}
+5.
+#include <stdio.h>
+
+
+int main()
+
+{
+   
+   int x;
+
+   x=printf("welcome\n");
+
+   printf("length of string is %d",x);
+
+
+   return 0;
+
+}
+
+6.
+#include<stdio.h>
+int main()
+{
+   printf("\"Hello , Amit Kumar\"");
+   return 0;
+}
+7.
+#include<stdio.h>
+int main()
+{
+    char a='%';
+    printf("%cd",a);
+    return 0;
+}
+8.
+#include<stdio.h>
+int main()
+{
+    printf("\\n");
+    return 0;
+}
+9.
+#include<stdio.h>
+int main()
+{
+    printf("\\\\");
+    return 0;
+}
+10.
+#include<stdio.h>
+int main()
+{
+   int day,mon,year;
+   printf("Enter the date of birth this formate dd/mm/yyyy.");
+   scafn("%d/%d/%d",&day,&mon,&year);
+   printf("Day-%d, month-%d, year-%d",day,mon,year);
+   return 0;
+}
+//11.
+int main()
+{
+   int hh,mm;
+   printf("Enter the time in this formate \"HH:MM\".");
+   scanf("%d:%d",&hh,&mm);
+   printf("%d hour and %d minute",hh,mm);
+   return 0;
+}
+//12.
+int main()
+{
+   int x=printf("ineuron");
+   printf("%d",x);
+   return 0;
+}
+// output is "inurone8".
+   
